@@ -1,7 +1,4 @@
-import requests
-from bs4 import BeautifulSoup
 from datetime import datetime
-import math
 import pandas as pd
 import os
 import time
