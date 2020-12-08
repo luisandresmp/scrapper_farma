@@ -6,8 +6,6 @@ Making the information available for further analysis for educational purposes (
 
 ## Librarys:
 
-- requests
-- beautifulSoup
 - datetime
 - pandas
 - os
