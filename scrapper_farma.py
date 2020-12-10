@@ -131,9 +131,6 @@ def scrapper_farma(option, url_products, driver):
             error.append(data)
         else:
             product_pigmento.append(data)
-            if len(product_pigmento) == 100:
-                df = pd.DataFrame(product_pigmento)
-                load_data(option_txt, df)
 
         bar.next()
     
